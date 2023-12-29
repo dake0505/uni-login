@@ -22,5 +22,10 @@ urlpatterns = [
     path("admin/", admin.site.urls),
     path("index/", views.index),
     path("user/list/", views.user_list),
-    path("user/add", views.user_add)
+    path("user/add", views.user_add),
+    path("user/create", views.create_user),
+    path("user/update", views.update_user),
+    path("user/query", views.query_user),
+    path("baidu", views.baidu),
+    path("login", views.login)
 ]
